@@ -1,0 +1,83 @@
+#molovichko{
+  height: 700px;
+  width: 700px;
+  border: 3px solid black;
+  background-image: url(https://p0.pikist.com/photos/496/457/snowman-snow-winter-cold-wintry-snowfall-figure-eismann-funny.jpg);
+}
+
+.transparent-text {
+  font-family: 'Bonveno', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #086996;
+  display: table;
+  margin: 20px auto;
+  color: rgb(37, 0, 202);
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: rgb(195, 206, 255);
+  background-image: -webkit-radial-gradient(cover, rgb(0, 153, 255),#edf5fd	);
+  background-image: -moz-radial-gradient(cover, #2986e2, #eaf2ff);
+  background-image: -o-radial-gradient(cover, #1f68b1, #205db8);
+  background-image: radial-gradient(cover, #2b79c7, #3377df)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(226, 255, 255);
+	border: 1px solid rgb(4, 86, 153);
+	box-shadow: 0 1px 0 rgb(2, 207, 222) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: rgb(19, 19, 138); 
+	color:rgb(2, 0, 122);
+	text-shadow: rgb(53, 53, 224);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(245, 0, 0);
+  	border: 1px solid rgb(212, 24, 24);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #7b99da;
+} 
